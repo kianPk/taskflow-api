@@ -1,0 +1,10 @@
+{
+  "name": "taskflow-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Task board REST API — projects, tasks, status transitions (Node/Express)",
+  "scripts": { "dev": "node --watch src/index.js", "start": "node src/index.js" },
+  "author": "Kian Zarandi",
+  "license": "MIT",
+  "dependencies": { "cors": "^2.8.5", "express": "^4.21.0" }
+}
